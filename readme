@@ -1,0 +1,14 @@
+USAGE:
+
+python main.py <products txt file> <listings txt file>
+
+NOTE:
+I wasn't sure if products with no listing matches should get a results object, so I chose to exclude them from the output.
+
+the output file will be created in the output folder.
+
+POSSIBLE IMPROVEMENTS:
+-filter by family if available
+-some listings will get incorrectly tagged for a product if the specified product matches a substring in the title
+	but there is no better match.
+	(ie title = '... a30 ...' and the best product match is 'a3'. If 'a30' existed in the product list it would tag that instead)
