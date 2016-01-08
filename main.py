@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #Code written by Robert Mic for the sortable coding challenge at http://sortable.com/challenge/
 
 import json
