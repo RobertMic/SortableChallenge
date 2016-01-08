@@ -1,6 +1,6 @@
 Sortable coding challenge, written in Python 3
 
-clone the repo and then "python3 main.py <products txt file> <listings txt file>"
+clone the repo and then "python main.py <products txt file> <listings txt file>"
 
 NOTE:
 I wasn't sure if products with no listing matches should get a results object, so I chose to exclude them from the output.
